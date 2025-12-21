@@ -20,4 +20,18 @@ This project detects whether an image is real or AI-generated. Key functionaliti
 ---
 
 ## Project Structure
-
+\\\
+ai-detection/
+├── data/ # Real & Fake images (not committed)
+├── models/ # Trained model saved as ai_detector.pth
+├── src/
+│ ├── model.py
+│ ├── train.py
+│ ├── predict.py
+│ └── utils.py
+├── tests/ # Optional test scripts
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+\\\
